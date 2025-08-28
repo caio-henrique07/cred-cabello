@@ -1,0 +1,68 @@
+/* Container central para ações como exclusão */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Mensagens de sucesso */
+.mensagem-sucesso {
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Mensagens de erro */
+.mensagem-erro {
+    font-weight: bold;
+    color: #dc3545;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Botões de ação */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.btn-confirm {
+    background-color: #dc3545; /* vermelho */
+    color: white;
+}
+
+.btn-confirm:hover {
+    background-color: #c82333;
+}
+
+.btn-cancel {
+    background-color: #6c757d; /* cinza */
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #5a6268;
+}
+
+/* Links dentro das ações */
+a.link-voltar {
+    display: block;
+    margin-top: 20px;
+    color: #4a90e2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.link-voltar:hover {
+    text-decoration: underline;
+}

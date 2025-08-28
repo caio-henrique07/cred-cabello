@@ -1,0 +1,59 @@
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Botões do formulário */
+.btn {
+    margin-top: 20px;
+    border: none;
+}
+
+.btn-cadastrar {
+    background-color: #28a745;
+}
+
+.btn-cadastrar:hover {
+    background-color: #218838;
+}
+
+/* Mensagens de sucesso */
+.mensagem-sucesso {
+    text-align: center;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 15px;
+}

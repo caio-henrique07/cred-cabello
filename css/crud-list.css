@@ -1,0 +1,19 @@
+.tabela-usuarios, .tabela-produtos {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.tabela-usuarios th, .tabela-usuarios td,
+.tabela-produtos th, .tabela-produtos td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.tabela-usuarios th, .tabela-produtos th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
